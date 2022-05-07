@@ -8,7 +8,7 @@ interface Heading1Props {
 const Heading1: React.FC<Heading1Props> = ({ children }) => {
     return (
         <h1 className="text-4xl font-semibold text-gray-800 dark:text-white">
-        Good afternoom, Charlie { children }
+            { children }
         </h1>
     )
 }
