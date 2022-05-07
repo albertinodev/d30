@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import LayoutApp from 'components/Layout/LayoutApp'
 import { useRouter } from 'next/router'
+import LayoutApp from 'components/Layout/LayoutApp'
 import LayoutPublic from 'components/Layout/LayoutPublic'
 import LayoutTenant from 'components/Layout/LayoutTenant'
 

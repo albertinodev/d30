@@ -12,7 +12,7 @@ const LayoutApp: React.FC<LayoutProps> = ({ children }) => {
                   <div className="bg-white h-full dark:bg-gray-700">
                       <div className="flex items-center justify-start pt-6 ml-8">
                           <p className="font-bold dark:text-white text-xl">
-                              Plannifer
+                              Social Midia Belt
                           </p>
                       </div>
                       <nav className="mt-6">
@@ -108,7 +108,7 @@ const LayoutApp: React.FC<LayoutProps> = ({ children }) => {
                       </div>
                   </header>
                   <div className="overflow-auto h-screen pb-24 px-4 md:px-6">
-                     
+                     {/* <Index/> */}
                   </div>
               </div>
           </div>
