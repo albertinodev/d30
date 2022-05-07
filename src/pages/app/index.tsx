@@ -9,10 +9,10 @@ const AppHome: NextPage = () => {
     return(
         <>
             <Heading1>
-                Good afternoom, Charlie
+                Seja bem vindo
             </Heading1>
             <Heading2>
-                Here&#x27;s what&#x27;s happening with your ambassador account today.
+                Gerenciador de links
             </Heading2>
             <div className="flex my-6 items-center w-full space-y-4 md:space-x-4 md:space-y-0 flex-col md:flex-row">
                 <div className="w-full md:w-6/12">
