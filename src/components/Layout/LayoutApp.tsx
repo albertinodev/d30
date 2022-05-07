@@ -110,7 +110,7 @@ const LayoutApp: React.FC<LayoutProps> = ({ children }) => {
                       </div>
                   </header>
                   <div className="overflow-auto h-screen pb-24 px-4 md:px-6">
-                     {/* <Index/> */}
+                     { children }
                   </div>
               </div>
           </div>
