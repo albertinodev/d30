@@ -1,11 +1,11 @@
 import { ReactNode } from "react"
 
 
-interface Heading1Props {
+interface Heading2Props {
     children: ReactNode
 }
 
-const Heading1: React.FC<Heading1Props> = ({ children }) => {
+const Heading2: React.FC<Heading2Props> = ({ children }) => {
     return (
         <h2 className="text-md text-gray-400">
             { children }
@@ -13,4 +13,4 @@ const Heading1: React.FC<Heading1Props> = ({ children }) => {
     )
 }
 
-export default Heading1;
+export default Heading2;
