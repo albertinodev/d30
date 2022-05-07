@@ -1,4 +1,5 @@
 import Heading1 from 'components/Heading1'
+import Heading2 from 'components/Heading2'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
