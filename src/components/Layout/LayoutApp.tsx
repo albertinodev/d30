@@ -18,7 +18,7 @@ const LayoutApp: React.FC<LayoutProps> = ({ children }) => {
                       </div>
                       <nav className="mt-6">
                           <div>
-                              <Link href='/app/home'>
+                              <Link href='/app'>
                                 <a className="w-full text-gray-800 dark:text-white flex items-center pl-6 p-2 my-2 transition-colors duration-200 justify-start border-l-4 border-purple-500" href="#">
                                     <span className="text-left">
                                         <svg width="20" height="20" fill="currentColor" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
