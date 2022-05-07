@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ReactNode } from "react";
 
 interface LayoutProps {
@@ -42,17 +43,19 @@ const LayoutApp: React.FC<LayoutProps> = ({ children }) => {
                                       </span>
                                   </span>
                               </a>
-                              <a className="w-full text-gray-400 flex items-center pl-6 p-2 my-2 transition-colors duration-200 justify-start hover:text-gray-800 border-l-4 border-transparent" href="#">
-                                  <span className="text-left">
-                                      <svg width="20" height="20" fill="currentColor" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                          <path d="M1728 608v704q0 92-66 158t-158 66h-1216q-92 0-158-66t-66-158v-960q0-92 66-158t158-66h320q92 0 158 66t66 158v32h672q92 0 158 66t66 158z">
-                                          </path>
-                                      </svg>
-                                  </span>
-                                  <span className="mx-4 text-sm font-normal">
-                                      Links
-                                  </span>
-                              </a>
+                              <Link href='/app/links'>
+                                <a className="w-full text-gray-400 flex items-center pl-6 p-2 my-2 transition-colors duration-200 justify-start hover:text-gray-800 border-l-4 border-transparent" href="#">
+                                    <span className="text-left">
+                                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1728 608v704q0 92-66 158t-158 66h-1216q-92 0-158-66t-66-158v-960q0-92 66-158t158-66h320q92 0 158 66t66 158v32h672q92 0 158 66t66 158z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span className="mx-4 text-sm font-normal">
+                                        Links
+                                    </span>
+                                </a>
+                              </Link>
                               <a className="w-full text-gray-400 flex items-center pl-6 p-2 my-2 transition-colors duration-200 justify-start hover:text-gray-800 border-l-4 border-transparent" href="#">
                                   <span className="text-left">
                                       <svg width="20" height="20" fill="currentColor" viewBox="0 0 2048 1792" xmlns="http://www.w3.org/2000/svg">
