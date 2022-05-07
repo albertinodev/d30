@@ -6,7 +6,7 @@ import Seo from 'components/Seo'
 
 const Home: NextPage = () => {
   return (
-    <Seo/>
+    <Seo />
   )
 }
 
