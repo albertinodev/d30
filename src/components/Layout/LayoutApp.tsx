@@ -57,7 +57,7 @@ const LayoutApp: React.FC<LayoutProps> = ({ children }) => {
                                         Links
                                     </span>
                               </LinkMenu>
-                              <LinkMenu href='/app/configurations'>
+                              <LinkMenu href='/app/settings'>
                                 
                                     <span className="text-left">
                                         <svg width="20" height="20" fill="currentColor" viewBox="0 0 2048 1792" xmlns="http://www.w3.org/2000/svg">
